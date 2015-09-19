@@ -22,13 +22,14 @@ class subStats(object):
                 self.submissions = []
                 self.authors = []
                 self.comments = []
-                self.offset = -(5.5 * 60 * 60)
-                self.min_date = self.subreddit.created_utc - self.offset
-                self.max_date = time.time() - self.offset          
+                self.offset = -(5.5 * 60 * 60)                
+                self.max_date = 1420050600 - (DAY_IN_SECONDS * 6 * 365) - (1 * DAY_IN_SECONDS)
+                self.min_date = self.max_date -(DAY_IN_SECONDS * 365) #1420050600 #self.subreddit.created_utc - self.offset
                 print ("Current time :" + str(self.max_date) + ' ' + self.easyTime(time.time() - self.offset))
-                print ("Creation time :" + str(self.min_date)+ ' ' + self.easyTime(self.min_date))
-                print ('Total existence time: ' + str(int((self.max_date - self.min_date)/DAY_IN_SECONDS/365)) + \
-                ' years & ' + str((int(self.max_date - self.min_date)/DAY_IN_SECONDS)%365) + ' days\n')
+                print ("Creation time :" + str(self.max_date)+ ' ' + self.easyTime(self.max_date))
+                print ("Upper time :" + str(self.min_date)+ ' ' + self.easyTime(self.min_date))
+                print ('Total existence time: ' + str(int((self.max_date - self.subreddit.created_utc)/DAY_IN_SECONDS/365)) + \
+                ' years & ' + str((int(self.max_date - self.subreddit.created_utc)/DAY_IN_SECONDS)%365) + ' days\n')
 
         def easyTime(self,timestamp):
                 time = datetime.datetime.utcfromtimestamp(timestamp)
@@ -48,7 +49,7 @@ class subStats(object):
                 
                 while not Done:
                         
-                        try:
+                        try:                                
                                 if DEBUG:
                                         print ('------------------------------------------------------\n')
                                         print (str(lowerTime) + '  ' + self.easyTime(lowerTime) + '\n')
@@ -56,18 +57,23 @@ class subStats(object):
                                         print ('\nreached')
 
                                 query = 'timestamp:%d..%d' % (lowerTime, (upperTime + 8 * 60 * 60))
-                                submissions = list(self.reddit.search(query, subreddit=self.subreddit, sort='new', limit=100, syntax='cloudsearch'))
+                                submissions = list(self.reddit.search(query, subreddit=self.subreddit, sort='new', limit=1000, syntax='cloudsearch'))
+
+                                if (len(submissions) == 0):
+                                        break
                                 						
                                 for submission in submissions:                                                                               
-                                        self.submissions.append(submission)
-                                        if DEBUG:
-                                                print(submission.author)
-                                                print (str(submission.created_utc) + '  ' + self.easyTime(submission.created_utc) + '\n')
                                         if submission.created_utc > self.max_date:
                                                 continue
                                         if submission.created_utc <= self.min_date:
                                                 Done = True                                        
-                                                break                                
+                                                break
+                                        if submission.created_utc <= upperTime:
+                                                self.submissions.append(submission)
+                                                if DEBUG:
+                                                        print(submission.author)
+                                                        print (str(submission.created_utc) + '  ' + self.easyTime(submission.created_utc) + '\n')
+                                        
                         
                                 self.submissions.sort(key=lambda x: x.created_utc)
                                 upperTime = self.submissions[0].created_utc - 0.001
@@ -94,8 +100,8 @@ class subStats(object):
                 
 def main():
 
-        outFile = open('submissions.p', 'wb')
-        stats = subStats('kashre001','xxxx','india',outFile)
+        outFile = open('submissionsactual2008.p', 'wb')
+        stats = subStats('MsAbroadBot','imnoidiot5','india',outFile)
         
         if (stats.fetch_submissions(365)):
                 print ('Success')
