@@ -1,0 +1,195 @@
+I first subscribed to this sub-reddit when we had about 15,000 people. I've seen this sub grow from a small self-contained 
+community into what it is today. There has been numerous posts about how the quality of the sub has gone down with time.
+I'm not here to post about that, rather I'm here to talk about numbers.
+So, I was bored some time last week and quickly wrote up a crawler to analyse /r/India over the past year. Here are the results. 
+
+Disclaimer - Results aren't *that* precise. Don't hold me to the 5^th decimal of precision. But it's fairly accurate overall. 
+
+Total No. of posts - 68283
+First post - 22-Aug-2014 11:56:45
+Last post - 22-Aug-2015 06:19:42
+Avg/day ~ 187
+
+Submissions. 
+This is the distribution for political, non-political and misc posts.
+Distribution for self-posts vs links.
+
+No. of posts with score < 1 - 10164 , which is 15% of all posts.
+No. of posts with score == 1 - 6079 , which is 8.9% of all posts.
+No. of posts with score > 1 but < 100 - 48848 , which is 71.5% of all posts. 
+No. of posts with score > 100 - 3192 , which is 4.6%.
+
+Total number of comments in a year = 1056240 
+Avg Comments in a day ~ 2893
+Total score = 1444291 (I know, I know. This is super-useless data much like this whole analysis)
+
+Average No. of comments/post = 15. Median score = 3.
+Average Scores of posts = 21. Median score = 6.
+
+Top 5 most scored :
+https://np.reddit.com/r/india/comments/38heyu/help_ideas_needed_hll_poisoned_my_village_with/?ref=search_posts [5451]
+https://np.reddit.com/r/india/comments/3es4ll/former_president_apj_abdul_kalam_passes_away/?ref=search_posts [2420]
+https://np.reddit.com/r/india/comments/32ojkl/np_indians_at_taco_bell_be_like/?ref=search_posts [1475]
+https://np.reddit.com/r/india/comments/2uryz4/mods_are_sleeping_upvote_this_lotus_to_the_front/?ref=search_posts [1409]
+https://np.reddit.com/r/india/comments/303ork/section_66a_declared_unconstitutional_boom/?ref=search_posts [1186]
+
+Top 5 most commented :
+https://np.reddit.com/r/india/comments/2vdj3l/delhi_assembly_election_2015/?ref=search_posts [883]
+https://np.reddit.com/r/india/comments/2fzmpz/rindia_what_do_we_think_of_your_state/?ref=search_posts [818]
+https://np.reddit.com/r/india/comments/32w7rd/what_are_your_differing_opinions_from_most_of/?sort=controversial [771] Oh, I took the liberty of sorting by controversial, have fun.
+https://np.reddit.com/r/india/comments/36hezf/hi_im_rahul_yadav_ceo_of_housingcom_ama/?ref=search_posts [730]
+https://www.reddit.com/r/india/comments/3h7emj/why_do_reddit_indians_hate_the_rashtriya/?ref=search_posts [672]
+
+Fun fact of the day -> All of the 5 above links had 5 *different* flairs. 
+
+Average trend of submissions in a day. 
+
+NSFW posts.
+Surprisingly only 401 NSFW posts which is just 0.59%.
+
+Top 5 NSFW posts. 
+https://np.reddit.com/r/india/comments/2lw7n7/check_if_mods_are_asleep_send_bathing_sunny_to/
+https://np.reddit.com/r/india/comments/2zwa5u/goa/
+https://np.reddit.com/r/india/comments/38t719/this_guy_in_jhajjar_takes_his_dogs_to_violent_dog/
+https://np.reddit.com/r/india/comments/34lhsa/the_great_indian_cleavage_hypocrisy/
+https://np.reddit.com/r/india/comments/2rppr1/renditions_of_hindu_mythological_characters/
+
+Gildings. 
+No. of gilded posts = 42. Which is a meagre 0.062% of posts. 
+No. of posts gilded once   = 36.
+No. of posts gilded twice  = 3.
+No. of posts gilded thrice = 2.
+Total Gildings 		   = 48.	
+Person gilded the most     - /u/RajaRajaC (7 times)
+
+Top 2 most gilded:
+https://np.reddit.com/r/india/comments/3ezu1n/india_has_improved_massively_and_is_still_on_an/?ref=search_posts
+https://np.reddit.com/r/india/comments/2vw8p6/rbi_slashed_the_interest_rate_on_credit_card_dues/?ref=search_posts
+
+Pol posts gilded = 11. Total gildings = 14.
+
+NSFW posts gilded = 0. 	
+
+Time for the important part, the people who make up this sub. The submitters.
+8286 unique posters.
+Top 5 submitters. 
+/u/gcs8		2008	2.94%
+/u/anveshj	1150	1.68%
+/u/_dexter	1053	1.54%
+/u/Tauji	893	1.30%
+/u/drm_wvr	753	1.10%
+
+Interesting profiles -
+
+/u/Tom_JerryToon - Seems to post only links.
+
+/u/madarchoda - Most links from www.dailypioneer.com. First time I'm hearing of such a website!
+So I checked out how many times daily pioneer has been posted. Result was 264. And number of time /u/madarchoda has posted 
+out of that 264 -> 215. Also I think he has an alt /u/maadcho. 
+
+/u/yellowpage09, seems to post a lot of links from econotimes.com. And every time samacharbot comments, he deletes it. Hm. He also
+posts links from bbc.co.uk and stuff and never asks samacharbot to delete its post. HM. 
+
+Political posts.
+2651 unique posters.
+1361 posters have posted only once (50%).
+Top 4 submitters remain the same. 
+/u/bajrangi_bhaijaan replaces /u/drm_wvr for the fifth position.
+
+/u/gcs8			1305	5.38%
+/u/anveshj		866	3.57%
+/u/_dexter		689	2.84%
+/u/Tauji		514	2.12%
+/u/bajrangi_bhaijaan	440	1.81%
+
+12 comments on average. 17 points on average. 
+
+Non-Political posts.
+6820 unique posters.
+
+AutoModerator	714	1.76%
+/u/gcs8		698	1.72%
+/u/drm_wvr	570	1.40%
+/u/redhatGizmo	428	1.05%
+/u/Tauji	368	0.90%
+/u/_dexter	349	0.86%
+
+16.2 comments on average. 22 points on average. 
+
+Randians seem to like NP posts more than Pol posts, not by a lot though. 
+
+Let's take a look at how the pol posts stack up: 
+
+Self Posts.
+5253 unique posts.
+
+'AutoModerator'		722	5.12%
+/u/gitacritic		84	0.59%
+/u/wordswithmagic	74	0.52%
+/u/agentbigman		64	0.45%
+/u/110011001100		63	0.44%
+/u/RajaRajaC		57	0.40%
+
+10 comments on avg and 21 points on average. 
+
+Now to everyone's favorites - Midnight RDD's(Not really, no one cares, except the kids and Anurag)
+
+Top 5 thread submitters:
+/u/phoenix_123		50	
+/u/de_redditor		23	
+/u/the_badass_panda	19
+/u/eldaisfish		13
+/u/engineerwolf		11
+
+Occurences in submission title :
+India : 17189
+Modi : 4729
+BJP : 2573
+Arvind and/or Kejriwal : 1421
+AAP : 1643
+Congress : 917
+Net Neutrality : 587
+
+How URL's stack up :
+
+Photos + GIFs = 6054.
+TOI links posted = 5519.
+YouTube = 3360.
+Twitter links posted = 3138.
+NDTV links posted = 2475.
+Hindu = 2230.
+FirstPost = 2704.
+Economic Times = 2943.	
+Indian Express = 2618.
+NP links to other reddit posts = 2302
+DnaIndia = 1656.
+Deccan chronicle = 418.
+Wikipedia = 413.
+BBC = 363. 
+DailyMail = 187.
+NYTimes = 165.
+WP = 55.
+
+Finally, I did some sentimental analysis on the submission titles. 
+
+Here is the pie-chart of the distribution. 
+
+So I took a look at the negative posts and 77.64% of the posts had at least one comment and 85% of the posts had a score greater than 0. Also 67% of posts had 
+a score more than '0' and at least '1' comment. 14 comments on average. 21 points on average. 
+
+In the positive posts, 68% of posts had a score more than '0' and at least '1' comment. 75% had at least one comment and 85% of had a score greater than '0'.
+14 comments on avg. 21 points on average.
+
+In the case of neutral posts 85% of had a score greater than '0', 80% had at least '1' comment and 69% had a score more than '0' and at least '1' comment.
+21 points on average. 17 comments on average. 
+
+So /r/India doesn't care if it's a positive/negative or neutral post. They seem to comment in and upvote whatever they find interesting. 
+
+######
+
+There is obviously a lot more that can be done. In case you want some quick query done, leave a comment, I'll get back to you ASAP.
+
+And oh, I used Python 3.4 + PRAW for getting the submissions. And MATLAB R2015b for analysis. 
+
+Also, I'm yet to analyze the comments. Yes, I have all of the comments too. I'll do that soon, working on something else at the moment. 
+Leave a comment if you want to see some queries done on the comments. 
